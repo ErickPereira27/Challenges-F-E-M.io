@@ -12,3 +12,7 @@
 
 **LS** = Lista os itens da pasta : ls -al lista os itens ocultos
 
+
+
+**GIT ADD** = adicionar/selecionar arquivos
+
