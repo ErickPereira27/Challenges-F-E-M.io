@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto 003</title>
+
+    <style>
+        /* Cartão de produto */
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            background-color: hsl(30, 38%, 92%);
+            height: 100vh;     
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+        .card {
+            width: 600px;
+            height: 450px;
+            background-color: white;
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        .img-card {
+            height: 450px;
+            width: 50%;
+        }
+
+        .card-text {
+            width: 240px;
+            height: 390px;
+            display: inline-block;
+            position: absolute;
+            top: 30px;
+            left: 330px;
+
+            .name-card {
+                font-family: Montserrat;
+                font-size: small;
+                letter-spacing: 3px;
+                color: hsl(228, 12%, 48%);
+                font-weight: 500;
+            }
+
+            .title-card {
+                font-family: fraunces;
+                color: hsl(158, 42%, 18%);
+            }
+
+            .p-card {
+                font-family: Montserrat;
+                color: hsl(228, 12%, 48%);
+                font-size: 0.9em;
+                font-weight: 500;
+                margin-bottom: 2em;
+            }
+
+            .button-card {
+                font-family: montserrat;
+                width: 100%;
+                height: 45px;
+                border-radius: 8px;
+                border: none;
+                background-color: hsl(158, 36%, 37%);
+                color: white;
+                font-weight: 300;
+                position: absolute;
+                bottom: 0%;
+
+                &:hover {
+                    background-color: hsl(158, 42%, 18%);
+                }
+            }
+
+
+        }
+
+        .price {
+            display: flex;
+            align-items: center;
+
+            .price-card-1 {
+                font-family: fraunces;
+                font-size: 1.8em;
+                font-weight: 700;
+                color: hsl(158, 36%, 37%);
+            }
+
+            .price-card-2 {
+                font-family: montserrat;
+                font-size: small;
+                text-decoration: line-through;
+                margin-left: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img src="images/image-product-desktop.jpg" alt="" class="img-card">
+
+        <div class="card-text">
+
+            <p class="name-card">PERFUME</p>
+
+            <h1 class="title-card">Gabrielle Essence Eau De Parfum</h1>
+
+            <p class="p-card">A floral solar and voluptuous interpretation composed by Oliver Pouge, Perfumer-Creator
+                for the House of CHANEL.</p>
+
+            <div class="price">
+                <span class="price-card-1">$149.99</span>
+                <span class="price-card-2">$169.99</span>
+            </div>
+
+
+            <br>
+
+            <button class="button-card"><img src="images/icon-cart.svg" alt="">Add to cart</button>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
