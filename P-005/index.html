@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto 005</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+        * {
+            font-family: "Red Hat Display";
+        }
+
+        body {
+            background-color: hsl(225, 100%, 94%);
+            background-image: url(images/pattern-background-desktop.svg);
+            background-repeat: repeat-x;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            width: 450px;
+            height: 640px;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .text {
+            position: absolute;
+            left: 75px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .text h2 {
+            font-weight: 900;
+            font-size: 1.7em;
+        }
+
+        .text p {
+            font-weight: 500;
+            color: hsl(224, 23%, 55%);
+        }
+
+        .click {
+            position: absolute;
+            top: 385px;
+            left: 45px;
+            width: 360px;
+        }
+
+        .plan {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: hsl(225, 100%, 98%);
+            padding: 20px;
+            border-radius: 10px;
+            width: 320px;
+            height: 50px;
+            margin-bottom: 30px;
+
+            .ap {
+                font-weight: 800;
+            }
+
+            .price {
+                color: hsl(224, 23%, 55%);
+            }
+
+            .ancor {
+                color: hsl(245, 75%, 52%);
+                font-weight: 800;
+                font-size: 13px;
+                margin-left: auto;
+
+                &:hover {
+                    color: hsl(245, 79%, 65%);
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        .pay {
+            width: 360px;
+            height: 45px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            background-color: hsl(245, 75%, 52%);
+            color: white;
+            font-weight: 800;
+            border: none;
+            box-shadow: 0px 15px 8px hsl(225, 100%, 94%);
+
+            &:hover {
+                background-color: hsl(245, 79%, 65%);
+                cursor: pointer;
+            }
+        }
+
+        .cancel {
+            width: 360px;
+            height: 45px;
+            background-color: rgba(240, 248, 255, 0);
+            border: none;
+            font-weight: 800;
+            color: hsl(224, 23%, 55%);
+
+            &:hover {
+                color: black;
+                cursor: pointer;
+            }
+        }
+    </style>
+
+    <div class="card">
+
+        <img src="images/illustration-hero.svg" alt="">
+
+        <div class="text">
+
+            <h2>Order Summary</h2>
+
+            <p>You can now listen ti millions of songs, audio books, and podcasts on any device anywhere you like!</p>
+
+        </div>
+
+        <div class="click">
+
+            <div class="plan">
+
+                <img src="images/icon-music.svg" height="55px" alt="">
+
+                <div>
+                    <span class="ap">Annual Plan</span>
+                    <br>
+                    <span class="price">$59.99/year</span>
+                </div>
+
+                <a href="" class="ancor">Change</a>
+
+            </div>
+
+            <button class="pay">
+                Proceed to Payment
+            </button>
+
+            <button class="cancel">
+                Cancel Order
+            </button>
+
+        </div>
+
+    </div>
+
+</head>
+
+<body>
+
+
+
+</body>
+
+</html>
