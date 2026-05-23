@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    font-family: "Figtree", sans-serif;
+    background-color: white;
+    width: 336px;
+    padding: 23px;
+    border-radius: 18px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px black;
+}
+
+span {
+    display: inline-block;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.text-top {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 10px 6px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    margin: 20px 0px 13px 0px;
+}
+
+.text-data {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card h1 {
+    font-weight: 800;
+    font-size: 1.5em;
+
+    &:hover {
+        color: hsl(47, 88%, 63%);
+    }
+}
+
+.card p {
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    line-height: 23px;
+}
+
+.image-text {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.image-text img {
+    width: 32px;
+}
+
+.image-text {
+    font-weight: 800;
+    font-size: small;
+}
